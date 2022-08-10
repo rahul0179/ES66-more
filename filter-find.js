@@ -4,7 +4,7 @@ const bigNum = n.filter(number => number > 20);
 
 const product = [
     { name: 'water bottle', price: 50, color: 'red' },
-    { name: 'Tv', price: 15000, color: 'grew' },
+    { name: 'Tv', price: 15000, color: 'black' },
     { name: 'phone', price: 50000, color: 'black' },
     { name: 'smart watch', price: 3000, color: 'pink' },
     { name: 'laptop', price: 75000, color: 'silver' },
@@ -16,3 +16,5 @@ const product = [
 
 const expensive = product.filter(p => p.color == 'black')
 console.log(expensive);
+const expensive2 = product.find(p => p.color == 'black')
+console.log(expensive2);
