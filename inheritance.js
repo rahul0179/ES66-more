@@ -37,7 +37,7 @@ class neptuneDev extends teamMember {
         this.codeEditor = editor;
     }
     releaseApp(version) {
-        console.log(this.name, 'build a routin for', version);
+        console.log(this.name, 'build a app for', version);
     }
 }
 
