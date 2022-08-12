@@ -67,7 +67,7 @@ const mul3 = (x, y, z) => x * y * z;
 const arr2 = [2, 4, 6, 8, 10];
 //const arrOperation1 = x => x * 2;
 const newarr2 = arr2.map(x => x * 5);
-console.log(newarr2);
+//console.log(newarr2);
 
 // problem-6 -filter odd number
 // -----------------------------------------------------------------
@@ -76,7 +76,7 @@ const arr3 = [1, 2, 3, 4, 13, 15, 99, 6, 8, 10];
 const odds = arr3.filter(number => {
     return number % 2 !== 0;
 });
-console.log(odds);
+//console.log(odds);
 
 // problem-7 -find price 
 // -----------------------------------------------------------------
@@ -89,7 +89,21 @@ const product = [
 ]
 
 const searchProduct = product.filter(x => x.price == 1300)
-console.log(searchProduct)
+//console.log(searchProduct)
+
+/* problem-8
+-------------------------- */
+const b = { name: "rahul", id: 10532, class: 10 };
+const { name, id } = b;
+console.log(name, id)
+
+//araay destrucring
+const [p, q] = [10, 20];
+console.log(p, q);
+
+/* problem -9
+------------------------------------ */
+
 
 
 
