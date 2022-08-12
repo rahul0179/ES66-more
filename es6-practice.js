@@ -66,8 +66,17 @@ const mul3 = (x, y, z) => x * y * z;
 // -----------------------------------------------------------------
 const arr2 = [2, 4, 6, 8, 10];
 //const arrOperation1 = x => x * 2;
-const newarr2 = arr2.map(x => x * 2);
+const newarr2 = arr2.map(x => x * 5);
 console.log(newarr2);
+
+// problem-6 -filter odd number
+// -----------------------------------------------------------------
+const arr3 = [1, 2, 3, 4, 13, 15, 99, 6, 8, 10];
+
+const odds = arr3.filter(number => {
+    return number % 2 !== 0;
+});
+console.log(odds);
 
 
 
