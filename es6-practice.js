@@ -78,6 +78,20 @@ const odds = arr3.filter(number => {
 });
 console.log(odds);
 
+// problem-7 -find price 
+// -----------------------------------------------------------------
+const product = [
+    { name: 'tv', price: 15000, color: 'silver' },
+    { name: 'laptop', price: 50000, color: 'black' },
+    { name: 'phone', price: 25000, color: 'green' },
+    { name: 'apple watch', price: 3000, color: 'blue' },
+    { name: 'alexa', price: 1300, color: 'grew' }
+]
+
+const searchProduct = product.filter(x => x.price == 1300)
+console.log(searchProduct)
+
+
 
 
 
