@@ -36,7 +36,7 @@ class student extends lscr {
 const rakib = new student('rahul', 10, 2022);
 rakib.classTeacher();
 console.log(rakib);
-const Shakib = new student('Shakib al hasan', 8, 2022, 10532, 01793930040);
+const Shakib = new student('Shakib al hasan', "8", "2022", "10532", "01793930040");
 rakib.classTeacher();
 Shakib.group('scince');
 console.log(Shakib);
